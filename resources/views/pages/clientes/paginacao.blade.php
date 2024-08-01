@@ -39,8 +39,6 @@
                     <td>{{ $cliente->logradouro}}</td>
                     <td>{{ $cliente->cep}}</td>
                     <td>{{ $cliente->bairro}}</td>
-
-                    <td>{{'R$' . ' ' . number_format ($cliente->valor, 2, ',', '.')}}</td>
                     <td>
                         <a href="{{route('atualizar.cliente', $cliente->id)}}" class="btn btn-light btn-sm">
                             Editar
