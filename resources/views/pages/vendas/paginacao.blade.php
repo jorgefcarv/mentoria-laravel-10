@@ -24,7 +24,6 @@
               <th>Numeração</th>
               <th>Produto</th>
               <th>Cliente</th>
-              <th>Ações</th>
             </tr>
           </thead>
           <tbody>
