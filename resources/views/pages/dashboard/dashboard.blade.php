@@ -42,7 +42,7 @@
             <div class="card-body">
               <h5 class="card-title">Usuário Cadastrados</h5>
               <p class="card-text">Total de usuários cadastrados no sistema.</p>
-              <a href="#" class="btn btn-primary">Clique aqui</a>
+              <a href="#" class="btn btn-primary">{{$totalDeUsuarioCadastrado}}</a>
             </div>
           </div>
         </div>
